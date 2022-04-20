@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 3000,
+    "id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1/canvas/",
+    "label" : {
+      "none" : [ "poston-1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 94,
+              "height" : 93
+            }, {
+              "width" : 188,
+              "height" : 186
+            }, {
+              "width" : 375,
+              "height" : 372
+            }, {
+              "width" : 750,
+              "height" : 743
+            }, {
+              "width" : 1500,
+              "height" : 1486
+            }, {
+              "width" : 3000,
+              "height" : 2972
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3000,
+            "@id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2972
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3000,
+          "id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2972
+        },
+        "target" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1/canvas/"
+      } ]
+    } ],
+    "height" : 2972
+  }, {
     "width" : 999,
     "id" : "https://dzsiegel.github.io/ocje-iiif/images/garden-grove-language-school/canvas/",
     "label" : {
