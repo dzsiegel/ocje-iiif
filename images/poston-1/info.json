@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 94,
+    "height" : 93
+  }, {
+    "width" : 188,
+    "height" : 186
+  }, {
+    "width" : 375,
+    "height" : 372
+  }, {
+    "width" : 750,
+    "height" : 743
+  }, {
+    "width" : 1500,
+    "height" : 1486
+  }, {
+    "width" : 3000,
+    "height" : 2972
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3000,
+  "@id" : "https://dzsiegel.github.io/ocje-iiif/images/poston-1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2972
+}
